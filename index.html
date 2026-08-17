@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Consult | Fractional CMO & Growth Advisory</title>
+    <meta name="description" content="Anneliese Thomas provides fractional CMO leadership and GTM advisory for B2B SaaS and fintech. Build predictable revenue pipelines and improve capital efficiency.">
+    
+    <!-- Open Graph tags for social sharing -->
+    <meta property="og:title" content="Thomas Consult | Fractional CMO & Growth Advisory">
+    <meta property="og:description" content="Filter out the market noise to build simple positioning and an enduring revenue pipeline. Strategic GTM leadership for B2B SaaS and fintech.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.thomas-consult.com">
+    <!-- Ensure you upload a landscape image named og-image.jpg to your root folder for this to work -->
+    <meta property="og:image" content="https://www.thomas-consult.com/og-image.jpg">
+
+    <!-- JSON-LD Schema for GEO/AEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Thomas Consult",
+      "founder": {
+        "@type": "Person",
+        "name": "Anneliese Thomas",
+        "jobTitle": "Fractional CMO & Growth Advisor",
+        "knowsLanguage": ["English", "Afrikaans", "German"]
+      },
+      "description": "Fractional CMO leadership and GTM strategy for B2B SaaS and fintech.",
+      "url": "https://www.thomas-consult.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Cape Town",
+        "addressCountry": "South Africa"
+      },
+      "areaServed": "Worldwide",
+      "sameAs": [
+        "https://www.linkedin.com/in/anneliese-thomas-k/"
+      ]
+    }
+    </script>
+
+    <!-- Google Font: Urbanist -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        succulent: '#005761', 
+                        desert: '#C97B4B', 
+                        white: '#FFFFFF' 
+                    },
+                    fontFamily: {
+                        sans: ['Urbanist', 'sans-serif'], 
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="antialiased">
+
+    <!-- fixed header navigation menu -->
+    <nav class="fixed w-full bg-white/95 backdrop-blur-sm z-50 py-4 shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+            <!-- logo reference -->
+            <a href="#home" class="block hover:opacity-80 transition focus:outline-none focus:ring-2 focus:ring-desert rounded">
+                <img src="thomas-consult-horizontal-logo.svg" alt="Thomas Consult - Fractional CMO and B2B SaaS Growth Advisory" class="h-8 w-auto">
+            </a>
+            
+            <!-- desktop menu -->
+            <div class="hidden md:flex space-x-8 text-succulent font-bold">
+                <a href="#challenge" class="hover:text-desert transition focus:outline-none focus:ring-2 focus:ring-desert rounded px-1">The challenge</a>
+                <a href="#advisory" class="hover:text-desert transition focus:outline-none focus:ring-2 focus:ring-desert rounded px-1">Executive advisory</a>
+                <a href="#contact" class="hover:text-desert transition focus:outline-none focus:ring-2 focus:ring-desert rounded px-1">Contact</a>
+            </div>
+
+            <!-- mobile menu button -->
+            <button id="mobile-menu-button" class="md:hidden text-succulent hover:text-desert focus:outline-none focus:ring-2 focus:ring-desert rounded p-2" aria-label="Toggle mobile menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- mobile menu dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden absolute w-full bg-white border-t border-gray-100 shadow-md">
+            <div class="px-6 pt-2 pb-4 space-y-2">
+                <a href="#challenge" class="block py-2 text-succulent font-bold hover:text-desert transition focus:outline-none focus:ring-2 focus:ring-desert rounded">The challenge</a>
+                <a href="#advisory" class="block py-2 text-succulent font-bold hover:text-desert transition focus:outline-none focus:ring-2 focus:ring-desert rounded">Executive advisory</a>
+                <a href="#contact" class="block py-2 text-succulent font-bold hover:text-desert transition focus:outline-none focus:ring-2 focus:ring-desert rounded">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <section id="home" class="relative pt-32 pb-24 px-6 max-w-full text-center text-white bg-succulent bg-cover bg-center" style="background-image: url('bg-pattern-white-01.svg');">
+        
+        <div class="relative z-10 max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-5xl mb-6 leading-tight">Are you spending more and more to acquire enterprise buyers who are taking twice as long to close?</h1>
+            
+            <p class="text-lg md:text-xl mb-10 italic text-white/90">When customer acquisition costs rise and GTM teams get weighed down by fragmented playbooks, piling on extra tools just burns capital. As a fractional CMO, I help executive teams strip away operational friction and redundant tactics to build what actually lasts: clean positioning, team alignment, and a predictable revenue pipeline.</p>
+            
+            <a href="#contact" class="inline-block bg-desert text-white font-bold py-3 px-8 rounded hover:bg-white hover:text-succulent transition shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">Book a strategic intro</a>
+        </div>
+        
+    </section>
+
+    <!-- section: founder quote with watermark -->
+    <section id="founder-quote" class="relative py-20 px-6 bg-gray-50 text-succulent border-y border-gray-100 overflow-hidden">
+        
+        <!-- SVG background watermark with explicit fill and opacity -->
+        <div class="absolute inset-0 z-0 flex items-center justify-center opacity-[0.05] pointer-events-none text-succulent">
+            <img src="icon-logo-var2.svg" alt="" aria-hidden="true" class="w-[150%] md:w-auto h-auto max-h-full object-contain text-succulent fill-current">
+        </div>
+
+        <!-- relative container for content -->
+        <div class="relative z-10 max-w-4xl mx-auto flex flex-col md:flex-row gap-8 items-center md:items-start">
+            
+            <!-- profile image on the left -->
+            <div class="shrink-0 mt-2">
+                <img src="Anne profile.jpg" alt="Anneliese Thomas" class="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover shadow-sm border-2 border-desert/30">
+            </div>
+            
+            <!-- quote and author block -->
+            <div class="flex-1 flex flex-col">
+                <p class="text-2xl md:text-3xl font-normal italic mb-6 leading-relaxed text-center md:text-left text-succulent">
+                    "In harsh, shifting climates, surface-level blooms disappear quickly. Growing up in arid Namibia shaped my approach. Real survival requires deep roots and structural resilience."
+                </p>
+                
+                <!-- right-aligned author block -->
+                <div class="text-center md:text-right">
+                    <span class="block font-bold text-lg">Anneliese Thomas</span>
+                    <span class="block font-bold text-xs uppercase tracking-widest text-desert mt-0.5">Principal consultant</span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+   <!-- section 1: the executive challenge -->
+    <section id="challenge" class="relative py-24 px-6 bg-succulent/5 text-succulent">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl mb-4 font-bold">Navigating GTM bottlenecks in B2B SaaS and fintech</h2>
+            <p class="mb-12 text-lg">Most scale-up founders and CEOs face three critical revenue bottlenecks:</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- bottleneck 1 -->
+                <div class="relative bg-white p-8 rounded border-t-4 border-succulent shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 hover:border-desert group overflow-hidden">
+                    <div class="absolute top-4 right-4 text-5xl font-bold text-gray-50 group-hover:text-desert/20 transition-colors pointer-events-none select-none">01</div>
+                    <h3 class="text-lg font-bold mb-3 relative z-10">Escalating CAC & pipeline stagnation</h3>
+                    <p class="mb-0 text-sm leading-relaxed relative z-10">Traditional outbound and inbound playbooks lose yield while enterprise buying committees become more risk-averse, lengthening sales cycles.</p>
+                </div>
+                
+                <!-- bottleneck 2 -->
+                <div class="relative bg-white p-8 rounded border-t-4 border-succulent shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 hover:border-desert group overflow-hidden">
+                    <div class="absolute top-4 right-4 text-5xl font-bold text-gray-50 group-hover:text-desert/20 transition-colors pointer-events-none select-none">02</div>
+                    <h3 class="text-lg font-bold mb-3 relative z-10">AI & search invisibility (GEO/AEO)</h3>
+                    <p class="mb-0 text-sm leading-relaxed relative z-10">Standard SEO no longer guarantees discovery as buyers turn to generative engines and LLMs (ChatGPT, Perplexity, Gemini, Claude) to research solutions and vendor shortlists.</p>
+                </div>
+                
+                <!-- bottleneck 3 -->
+                <div class="relative bg-white p-8 rounded border-t-4 border-succulent shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 hover:border-desert group overflow-hidden">
+                    <div class="absolute top-4 right-4 text-5xl font-bold text-gray-50 group-hover:text-desert/20 transition-colors pointer-events-none select-none">03</div>
+                    <h3 class="text-lg font-bold mb-3 relative z-10">Revenue leakage & operational noise</h3>
+                    <p class="mb-0 text-sm leading-relaxed relative z-10">Misaligned GTM teams run fragmented, inefficient campaigns rather than protecting Net Revenue Retention (NRR) and expanding core accounts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- section 2: target business metrics -->
+    <section class="py-20 px-6 bg-succulent text-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Measuring success through board-level financial metrics</h2>
+            <p class="text-lg md:text-xl mb-8 leading-relaxed">Marketing should never be evaluated on vanity metrics. I measure commercial performance through strict financial discipline:</p>
+            
+            <ul class="list-disc pl-6 space-y-4 text-lg">
+                <li><strong>Capital efficiency:</strong> Shorter CAC payback periods and higher marketing yield per spend.</li>
+                <li><strong>Pipeline velocity:</strong> Accelerated deal progression across target ICP accounts.</li>
+                <li><strong>Net revenue retention (NRR):</strong> Plugging revenue leakage and systematically scaling account expansion.</li>
+                <li><strong>AI share of voice:</strong> Establishing category citation authority across emerging generative AI search platforms.</li>
+            </ul>
+        </div>
+    </section>
+
+ <!-- section 3: engagement models -->
+    <section id="models" class="py-20 px-6 max-w-5xl mx-auto text-succulent">
+        <h2 class="text-3xl mb-6 font-bold text-center">Fractional CMO leadership & growth advisory</h2>
+        
+        <p class="text-lg md:text-xl mb-12 leading-relaxed text-center max-w-3xl mx-auto text-succulent">
+            I deliver GTM strategy, lean marketing architectures, and modern AI operations to turn complex technical capabilities into predictable revenue pipeline.
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <!-- model 1: fractional cmo -->
+            <div class="border-t-4 border-succulent hover:border-desert bg-gray-50 p-8 rounded shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+                <h3 class="text-xl font-bold mb-4 text-desert">Fractional CMO</h3>
+                <p class="mb-0">Embedded executive direction (1–3 days per week) for B2B SaaS and fintech founders requiring GTM velocity without the full-time C-suite overhead.</p>
+            </div>
+            
+            <!-- model 2: growth sprints -->
+            <div class="border-t-4 border-succulent hover:border-desert bg-gray-50 p-8 rounded shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+                <h3 class="text-xl font-bold mb-4 text-desert">Growth sprints</h3>
+                <p class="mb-0">6-to-12-week high-impact advisory projects focused on capital-efficient positioning, GEO/AEO transitions, and pipeline architecture.</p>
+            </div>
+            
+            <!-- model 3: board advisory -->
+            <div class="border-t-4 border-succulent hover:border-desert bg-gray-50 p-8 rounded shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+                <h3 class="text-xl font-bold mb-4 text-desert">Board advisory & audits</h3>
+                <p class="mb-0">Independent evaluation of marketing operations, team skills gaps, and AI readiness prior to funding rounds or market expansion.</p>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <a href="https://www.linkedin.com/in/anneliese-thomas-k/" target="_blank" rel="noopener noreferrer" class="inline-block bg-desert text-white font-bold py-3 px-8 rounded hover:bg-succulent transition shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-succulent">Get in touch</a>
+        </div>
+    </section>
+
+    <!-- visual break: narrower full width landscape image -->
+    <section class="w-full">
+        <img src="Anne-consult.jpg" alt="Anneliese Thomas providing board-level GTM strategy and fractional CMO advisory" class="w-full h-auto max-h-[360px] object-cover object-center shadow-inner">
+    </section>
+
+    <!-- section 4: executive bio -->
+    <section id="advisory" class="py-20 px-6 max-w-4xl mx-auto text-succulent">
+        <h2 class="text-3xl mb-10 font-bold">Executive bio</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+            <!-- expertise block -->
+            <div class="border-t-4 border-succulent hover:border-desert bg-gray-50 p-8 rounded shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+                <h3 class="text-lg font-bold mb-3 text-desert">Cross-industry perspective</h3>
+                <p class="mb-0">Drawing on over 20 years of leadership, I bring domain expertise spanning enterprise finance, eCommerce, automotive, and pharma. My focus is on eliminating rigid thinking to build high-yield workflows and embed AI innovations.</p>
+            </div>
+
+            <!-- scale-up block -->
+            <div class="border-t-4 border-succulent hover:border-desert bg-gray-50 p-8 rounded shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+                <h3 class="text-lg font-bold mb-3 text-desert">Proven scale-up growth</h3>
+                <p class="mb-0">At Kurtosys, I expanded TAM reach from 15% to 86% across US and EMEA markets. Through constant optimisation, we delivered three consecutive years of revenue compounding, achieving +27.4% cumulative growth and a +15% lift in revenue per customer.</p>
+            </div>
+        </div>
+    </section>
+
+   <!-- footer section -->
+    <footer id="contact" class="py-12 px-6 bg-succulent text-white">
+        <div class="max-w-4xl mx-auto text-center md:text-left flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+            <div class="flex flex-col items-center md:items-start">
+                <!-- smaller footer logo reference -->
+                <a href="#home" class="block hover:opacity-80 transition mb-3 focus:outline-none focus:ring-2 focus:ring-desert rounded">
+                    <img src="thomas-consult-horizontal-logo.svg" alt="Thomas Consult - Fractional CMO and B2B SaaS Growth Advisory" class="h-6 w-auto brightness-0 invert">
+                </a>
+                <p class="mb-4">Build for resilience. Scale for impact.</p>
+                <p>© 2026 Thomas Consult. All rights reserved.</p>
+            </div>
+            <div class="text-center md:text-right mt-8 md:mt-0">
+                <p class="font-bold">Anneliese Thomas <span class="font-normal">| Principal consultant</span></p>
+                <p class="mt-2 text-sm leading-relaxed">
+                    Location: Cape Town, South Africa <br>
+                    (available globally for remote, fractional & hybrid roles)
+                </p>
+                <p class="mt-4">
+                    <!-- spam-protected email link -->
+                    Email: <a href="#" onclick="window.location.href = 'mailto:' + 'anneliese' + '@' + 'thomas-consult.com'; return false;" class="hover:text-desert font-bold transition-colors focus:outline-none focus:ring-2 focus:ring-desert rounded px-1" title="Click to email">anneliese [at] thomas-consult.com</a><br>
+                    LinkedIn: <a href="https://www.linkedin.com/in/anneliese-thomas-k/" target="_blank" rel="noopener noreferrer" class="hover:text-desert font-bold transition-colors focus:outline-none focus:ring-2 focus:ring-desert rounded px-1">linkedin.com/in/anneliese-thomas-k/</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- mobile menu toggle script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuBtn = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileLinks = mobileMenu.querySelectorAll('a');
+
+            menuBtn.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            mobileLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
